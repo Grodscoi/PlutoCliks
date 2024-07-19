@@ -1,0 +1,131 @@
+<html>
+    <head>
+        <title>PlutoClick</title>
+        <link rel="stylesheet" href="css\Untitled-1.css">
+    </head>
+    <body>
+        <section class="info fade-in">
+            <header>
+                <h1>PlutoClick</h1>
+            </header>      
+            <section class="mine">
+                <button type="button" class="knopka" onClick="countClicks()">click</button>
+                <div class="counter" data-number="100" data-new-number="500">
+                    <p>Clicks:<a class="schet" id="clicks">0</a></p>
+                    <p>За одно нажатие - <a class="schet" id="Counter_clicks">0</a> кликов</p>
+                </div>
+                <div class="UpDate">
+                    <button class = "falbut" onclick="spendClick()">update</button>
+                </div>
+                <div id="message">ERROR</div>
+                <div id="Str1"></div>
+                <div id="Str2"></div>
+                <div id="Str3"></div>
+                <div id="Str4"></div>
+                <div id="Str5"></div>
+            </section>
+            <section class="agpar">
+                <button class="stoim1" onclick="activParagh1()">↡1000↡</button>
+                <button class="stoim1" onclick="activParagh2()">↡2000↡</button>
+                <button class="stoim1" onclick="activParagh3()">↡5000↡</button>
+                <button class="stoim1" onclick="activParagh4()">↡10000↡</button>
+                <button class="stoim1" onclick="activParagh5()">↡100000↡</button>
+            </section>
+            <section class = "mineferm">
+                <button class="min1" id="min01" onclick="spendMin1()">Min1</button>
+                <button class="min1" id="min02" onclick="spendMin2()">Min2</button>
+                <button class="min1" id="min03" onclick="spendMin3()">Min3</button>
+                <button class="min1" id="min04" onclick="spendMin4()">Min4</button>
+                <button class="min1" id="min05" onclick="spendMin5()">Min5</button>
+            </section>
+            <section class="kaerd">
+                <p>BUY RandCart - <a>10000</a></p>
+                <button class="kart1" onclick="spendMin6()">RandCart</button>
+            </section>   
+            <p class="Lider">Перейти на лидерборд : <a class="LiderShar" href="LiderBord.html">PlutoBord</a></p>
+            <p class="Lider1">Поддержать : <a class="LiderShar" href="https://www.donationalerts.com/r/boombouch">DonationAlerts</a></p>
+            <footer>
+                <section class="info">
+                    <a class = "Lider2" href="https://t.me/+DnSiUMjo4IM5ZWEy">Наш Telegram канал</a>
+                    <button class="Lider2" onclick="updateTask()">Задание на сегодня</button> 
+                    <button class="Lider2" onclick="updateLeaderboard()">Обновить очивки</button>
+                    <button class = "Lider2" onclick="toggleDarkMode()">Переключить на темную тему</button>
+                    <button class="Lider2" onclick="save_element()">Сохранение</button>
+                    <button class="Lider2" onclick="UdateServ()">Воспроизвести Сохранение</button>
+                </section>
+            </footer>
+            <section class="info fade-in">
+                <div class="wrapper">
+                    <div class="lboard_section">
+                        <div class="lboard_tabs">
+                            <div class="tabs">
+                                <ul>
+                                    <h1>Аchievement</h1>
+                                </ul>
+                            </div>
+                        </div>
+                
+                        <div class="lboard_wrap">
+                            <div class="lboard_item_month" style="display: block;">
+                                <div class="lboard_mem">
+                                    <div class="name_bar">
+                                        <p>Start</p>
+                                        <div class="bar_wrap">
+                                            <div class="inner_bar" style="width: 95%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="stoim1" id = "mes">no_received</div>
+                                </div>
+                                <div class="lboard_mem">
+                                    <div class="name_bar">
+                                        <p>1000 clicks!</p>
+                                        <div class="bar_wrap">
+                                            <div class="inner_bar" style="width: 80%"></div>
+                                        </div>
+                                    </div><div class="stoim1" id ="mes1">no_received</div>
+                                </div>
+                                <div class="lboard_mem">
+                                    <div class="name_bar">
+                                        <p>Buy RandCart</p>
+                                        <div class="bar_wrap">
+                                            <div class="inner_bar" style="width: 70%;"></div>
+                                        </div>
+                                    </div>
+                                    <div class="stoim1" id="mes2">
+                                        no_received
+                                    </div>
+                                </div>
+                                <div class="lboard_mem">
+                                    <div class="name_bar">
+                                        <p>More time!</p>
+                                        <div class="bar_wrap">
+                                            <div class="inner_bar" style="width: 50%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="stoim1" id="mes3">
+                                        no_received
+                                    </div>
+                                </div>
+                                <div class="lboard_mem">
+                                    <div class="name_bar">
+                                        <p>Buy min5</p>
+                                        <div class="bar_wrap">
+                                            <div class="inner_bar" style="width: 30%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="stoim1" id="mes4">
+                                        no_received
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <p class="Lid">Поддержать : <a class="LiderShar" href="https://www.donationalerts.com/r/boombouch">DonationAlerts</a></p>
+            </footer>
+        </section>
+        <script src="js\Untitled-1.js"></script>
+    </body>
+</html>
